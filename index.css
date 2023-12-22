@@ -1,3 +1,133 @@
-#parent{
-    color: red;
+.header{
+    background: linear-gradient(0deg, #2A289C 0%, #2A289C 100%), linear-gradient(135deg, #FFA36F 0%, #DD6534 100%);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logoContainer{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    flex: .6;
+    display: flex;
+    color: white;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.logo{
+    width: calc(100rem/24);
+    height : calc(100rem/24);
+}
+.navBar > ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    flex: .4;
+    gap : 8rem;
+    font-size: 1.2rem;
+}
+.navBar > ul > li{
+    cursor: pointer;
+}
+.cardContainer{
+    /* margin-top: 5rem; */
+    width: calc(500rem/24);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.cardImgWrapper{
+    width: calc(500rem/24);
+    height : calc(400rem/24)
+}
+.cardBody{
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.appBody{
+    margin-top: 3rem;
+    /* border: 1px solid red; */
+}
+
+.cardBody{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap : 1.5rem
+}
+.nameWrapper{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items : center;
+    justify-content: space-between;
+    width: 100%;
+}
+.nameWrapper h3{
+
+}
+.nameWrapper p{
+   /* padding: 0.2rem 1rem;
+   background-color: rgb(14, 80, 32);
+   border-radius: 12px;
+   font-size: inherit;
+   color: white;
+   height: 2rem; */
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(14, 80, 32);
+    color: rgb(255, 255, 255);
+    padding: 0.4px 0.4rem;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(14, 80, 32);
+}
+.costWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    height: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+.costWrapper :nth-child(1){
+    text-align: left;
+    color: rgb(105, 105, 105);
+    font-size: inherit;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 56%;
+}
+.costWrapper :nth-child(2){
+    color: rgb(105, 105, 105);
+    font-size: inherit;
+    line-height: 1.5;
+}
+.cardTextBody{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0 0.2rem;
+   
+}
+.nameWrapper{
+    height: 1rem;
+}
+
+.btnContainer{
+    margin-bottom: 1rem;
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
 }
