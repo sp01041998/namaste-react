@@ -2168,6 +2168,120 @@ export const resObj =  [
         "link": "https://www.swiggy.com/restaurants/eatfit-ali-asker-road-cunningham-road-bangalore-393107",
         "type": "WEBLINK"
       }
+    },
+    {
+      "info": {
+        "id": "393107",
+        "name": "EatFit",
+        "cloudinaryImageId": "6126c9b45de2cb222405c1af8a321e74",
+        "locality": "Ali Asker Road",
+        "areaName": "Cunningham Road",
+        "costForTwo": "₹270 for two",
+        "cuisines": [
+          "Chinese",
+          "Healthy Food",
+          "Tandoor",
+          "Pizzas",
+          "North Indian",
+          "Thalis",
+          "Biryani"
+        ],
+        "avgRating": 4.4,
+        "feeDetails": {
+          "restaurantId": "393107",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 4300
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 4300
+        },
+        "parentId": "76139",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 22,
+          "lastMileTravel": 3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "22 mins",
+          "lastMileTravelString": "3.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-12-07 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "brand",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "brand"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        }
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/eatfit-ali-asker-road-cunningham-road-bangalore-393107",
+        "type": "WEBLINK"
+      }
     }
   ]
 

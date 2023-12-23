@@ -99,7 +99,7 @@
 .costWrapper :nth-child(1){
     text-align: left;
     color: rgb(105, 105, 105);
-    font-size: inherit;
+    
     line-height: 1.5;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -126,8 +126,41 @@
 
 .btnContainer{
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 .icon{
     width: 3rem;
     height: 3rem;
+}
+
+.locationWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    height: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+.locationWrapper :nth-child(1){
+    color: rgb(33, 32, 32);
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 56%;
+    font-size: inherit;
+}
+
+.locationWrapper :nth-child(2){
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(0.4rem);
+    border-radius: 0.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: rgb(54, 54, 54);
+    font-size: inherit;
+}
+.filterContainer{
+    margin-bottom: 1rem;
+    display: flex;
 }

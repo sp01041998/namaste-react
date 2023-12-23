@@ -1,6 +1,6 @@
 import {starIcon} from './util/image/star-regular.svg'
 
-const Card = ({name, cuisines, rating, cost, location,image}) => {
+const Card = ({name, cuisines, rating, cost, location, image, deliveryTime, index}) => {
     return (
         <div className="cardContainer">
             <div>
@@ -23,6 +23,11 @@ const Card = ({name, cuisines, rating, cost, location,image}) => {
                   <p>{cuisines.join(", ")}</p>
                   <p>{cost}</p>
                 </div>
+                <div className="locationWrapper">
+                  <p>{location}</p>
+                  <p>{deliveryTime}</p>
+                </div>
+
                 
             </div> 
         </div>
