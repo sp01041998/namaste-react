@@ -127,6 +127,7 @@
 .btnContainer{
     margin-bottom: 1rem;
     margin-right: 1rem;
+    /* border: 1px solid blue; */
 }
 .icon{
     width: 3rem;
@@ -163,4 +164,11 @@
 .filterContainer{
     margin-bottom: 1rem;
     display: flex;
+    /* border: 1px solid red; */
+}
+.headerNav li :nth-child(2){
+    color: white;
+}
+.aboutPage{
+    color: white;
 }
